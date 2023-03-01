@@ -15,7 +15,7 @@ app.use('/loan', loanRoute);
 const mongoose = require('mongoose');
 
 //asynchronous connection
-mongoose.connect('mongodb+srv://admin:nuXFyNyyd4RJrjY1@ift458.bvcjbzu.mongodb.net/Loans', {useNewUrlParser: true})
+mongoose.connect('mongodb+srv://admin:<password>@ift458.bvcjbzu.mongodb.net/Loans', {useNewUrlParser: true})
     .then(() => console.log('MongoDB connection successful'))
     .catch((err) => console.log(err));
 
